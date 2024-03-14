@@ -1,6 +1,6 @@
 # Meish Hamilton Portfolio
 
-A study guide for usefull css in a grid format
+Portfolio of works by or contributed to by Meish Hamilton
 
 ## Objective
 A portfolio of Meish Hamiltons code applications
