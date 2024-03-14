@@ -2,6 +2,12 @@ body {
     display: flex;
  
 }
+
+/* || Media queries for layout adjustment */
+
+
+
+
 /* || Images */
 
 
@@ -9,7 +15,13 @@ body {
 
 /* || Color pallate */
 
-
+:root {
+    --gingerskin:    #b85e01;
+    --tank-moss:     #405416;
+    --mountin-pass: #344955;
+    --pudding:       #f2eeb6;
+    --aside:        #2729af;
+}
 
 
 /* || Typeography */

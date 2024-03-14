@@ -7,8 +7,8 @@ A portfolio of Meish Hamiltons code applications
 ---
 ### Checklist
 
-- [ ] set up outline for each section
-- [ ] set up style reset
+- [x] set up outline for each section
+- [x] set up style reset
 - [ ] set up HTML outline in greater detail for each "section"
 - [ ] fill "bio section" text
 - [ ] add pic to "bio section" (use css)
