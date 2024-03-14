@@ -1,9 +1,9 @@
-# grid-snips-study
+# Meish Hamilton Portfolio
 
 A study guide for usefull css in a grid format
 
 ## Objective
-I want a grid like structre present in my study guide to save usefull css snippets. I need to be able to identify these snippets from their concise and well thought out headings. I want users to be able to highlight and copy with a single click. Additionally it should work on both mobile and desktop.
+A portfolio of Meish Hamiltons code applications
 ---
 ### Checklist
 
