@@ -1,7 +1,4 @@
-body {
-    display: flex;
- 
-}
+
 
 /* || Media queries for layout adjustment */
 
@@ -18,13 +15,35 @@ body {
 :root {
     --gingerskin:    #b85e01;
     --tank-moss:     #405416;
-    --mountin-pass: #344955;
+    --mountin-pass:  #344955;
     --pudding:       #f2eeb6;
-    --aside:        #2729af;
+    --left-panel:    #2729af;
 }
 
 
 /* || Typeography */
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+  margin: auto;  
+}
+
+.prime-font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: normal;
+    color: var(--mountin-pass);
+}
+
+
+/* || overall layout */
+
+
+
 
 
 
