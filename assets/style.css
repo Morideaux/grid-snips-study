@@ -16,8 +16,11 @@
     --gingerskin:    #b85e01;
     --tank-moss:     #405416;
     --mountin-pass:  #344955;
-    --pudding:       #f2eeb6;
+    --pudding:       #f5f3d6;
     --left-panel:    #2729af;
+    --darkest-grey:  #36454f;
+    --lightest-grey: #b2beb5;
+    --true-grey:     #cccccc;
 }
 
 
@@ -32,7 +35,7 @@ h2 {
 }
 
 .prime-font {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, Poppins, sans-serif;
     text-decoration: none;
     font-size: 90%;
     font-weight: normal;
@@ -41,7 +44,12 @@ h2 {
 
 
 /* || overall layout */
-
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:var(--pudding);
+}
 
 
 
