@@ -10,23 +10,29 @@
 
 
 
-/* || Color pallate */
 
+/* || Color pallate */
 :root {
     --gingerskin:    #b85e01;
     --tank-moss:     #405416;
     --mountin-pass:  #344955;
     --pudding:       #f5f3d6;
-    --left-panel:    #2729af;
+    --dark-pudding:  #e4dcc7e3;
+    --top-panel:     #2729af;
     --darkest-grey:  #36454f;
     --lightest-grey: #b2beb5;
     --true-grey:     #cccccc;
+    /* Text and other varibles*/
     --true-text: 16px;
-    
+    --nav-transition: transition:all .28s ease-in-out;
+    --sec-transformation: translateY(0) scale(1);
+  
 }
 
 
 /* || Typeography */
+
+
 
 h1 {
     font-size: 200%;
@@ -36,24 +42,89 @@ h2 {
   margin: auto;  
 }
 
-.prime-font {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, Poppins, sans-serif;
+
+
+
+/* || overall layout */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: var(--pudding);
+};
+
+body {
+    transition: var(--nav-transition);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:var(--mountin-pass);
+    
+
+    .primeTxt {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-size: 90%;
     font-weight: normal;
     color: var(--mountin-pass);
 }
+};
 
-
-/* || overall layout */
-body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color:var(--pudding);
+header {
+    height: 100vh;
+    color: var(--top-panel);
+    overflow: hidden;
 }
 
 
+section {
+    min-height: 110vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 3rem 12rem;
+
+};
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+
+};
+
+/*Transitions for each section*/
+
+.section{/*sets sections off of the page on initial load.*/
+    transform: translateY(-100%) scale(0);
+    transition: var(--nav-transition);
+    background-color: var(--dark-pudding);
+
+}
+
+.sec1 {
+    display: none;
+    transform: var(--sec-transformation);
+}
+
+.sec2 {
+    display: none;
+    transform: var(--sec-transformation);
+}
+
+.sec3 {
+    display: none;
+    transform: var(--sec-transformation);
+}
+
+.sec4 {
+    display: none;
+    transform: var(--sec-transformation);
+}
 
 
 
