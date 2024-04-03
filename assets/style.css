@@ -40,8 +40,17 @@
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 24
-}
+  'opsz' 24;
+  background-color: var(--gingerskin);
+  border-radius: 48%;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  justify-content: center;
+  text-align: center;
+};
 
 
 h1 {
@@ -109,6 +118,16 @@ a {
 
 /*Transitions for each section*/
 
+.navInterface{
+    margin: .7rem 0;
+    padding: .7rem 0;
+    flex: content;
+    flex-direction: row;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
 .section{/*sets sections off of the page on initial load.*/
     transform: translateY(-100%) scale(0);
     transition: var(--nav-transition);
@@ -143,7 +162,7 @@ a {
     top: 50%;
     right: 3%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     transform: translate(-50%);
@@ -157,7 +176,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: .9rem 0;
+        margin: .9rem 15%;
         box-shadow: var(--box-shadow-1);
 
     };
